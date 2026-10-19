@@ -148,4 +148,3 @@ class LingottoFiere:
         """Restituisce la lista ordinata degli stand in base al prezzo"""
         lista_stand = list(self.stand.values())
         return sorted(lista_stand)
-
